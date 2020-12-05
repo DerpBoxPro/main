@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .button {
+        display: inline-block;
+        border-radius: 8px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 14px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+
+      .button:hover span {
+        padding-right: 25px;
+      }
+
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+  div.double {border-style: solid;}
+  </style>
+  </head>
+  <body>
+    <h1>Bobux Generator</h1>
+    <hr>
+    <p class="double">Username:</p>
+    <div contenteditable="true" class="double">
+      Enter Username
+    </div>
+    <hr>
+    <p class="double">Password:</p>
+    <div contenteditable="true" class="double">
+      Enter Password
+    </div>
+    <hr>
+    <form action="pwned.html">
+        <button class="button" style="vertical-align:middle"><span>Generate Bobux </span></button>
+    </form>
+  </body>
+</html>

@@ -3,21 +3,147 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Bigfoot Hunters</title>
+  <title>Epik Bobux</title>
+  <style>
+    /* Button 1 */
+  .button {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* Button 2 */
+
+  .button2 {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #008CBA;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button2:hover span {
+    padding-right: 25px;
+  }
+
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /* Button 3 */
+
+  .button3 {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button3:hover span {
+    padding-right: 25px;
+  }
+
+  .button3:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  </style>
 </head>
 
 <body>
   <h1>Welcome to Bigfoot Hunters</h1>
   <hr>
-  <p>Bigfoot is fake. The end</p>
-  <h1>
-    &#128514;</h1>
-  <br>
-  <img src="https://media1.giphy.com/media/xUPGcCh4nUHyCkyuti/200.gif" alt="lol">
-  <ul>
-    <li><a href="aboutus.html">About us</a></li>
-    <li>Ur a loser</li>
-  </ul>
+<form action="aboutus.html">
+    <button class="button" style="vertical-align:middle"><span>About Us </span></button>
+</form>
+<form action="freebobux.html">
+    <button class="button2" style="vertical-align:middle"><span>Free Bobux </span></button>
+</form>
+<form action="bobuxgenerator.html">
+    <button class="button3" style="vertical-align:middle"><span>Bobux Generator </span></button>
+</form>
 </body>
 
 </html>
